@@ -68,7 +68,7 @@ body{
 
 /* Banner section - 1st */
 .first-banner-container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 650px;
     display: flex;
     justify-content: space-around;
@@ -77,7 +77,7 @@ body{
     
 }
 .first-banner-container-content{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 50%;
     height: auto;
     background: #FFF;
@@ -161,7 +161,7 @@ body{
 
 /* Banner section - 2nd */
 .first-banner-container-img{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 50%;
 }
 .first-banner-container-img img{
@@ -169,3 +169,56 @@ body{
     width: 650px;
 }
 
+
+/* Second banner */
+.second-banner-container{
+    border: 1px solid tomato;
+    width: auto;
+    height: 600px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    
+}
+.second-banner-container-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px;
+
+}
+.second-banner-container-content img{
+    width: 800px;
+    height: 500px;
+}
+.second-banner-container-description{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: ; */
+    text-align: right;
+}
+.second-banner-container-description h3{
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.second-banner-container-description p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 520px;
+}
+.purpose p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.purpose h4{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
