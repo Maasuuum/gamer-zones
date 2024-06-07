@@ -65,6 +65,9 @@ body{
 .follow-menu img{
     cursor: pointer;
 }
+.follow-menu:hover{
+    background-color: rgba(11, 2, 35, 0.337);
+}
 
 /* Banner section - 1st */
 .first-banner-container{
@@ -272,4 +275,59 @@ body{
     font-weight: 500;
     width: 342px;
     /* text-align: left; */
+}
+
+
+/* online play section */
+.play-section{
+    /* border: 1px solid tomato; */
+    width: 1130px;
+    height: 550px; 
+    /* text-align: left; */
+    margin-left: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 265px; */
+}
+.play-section-desc{
+    /* border: 1px solid green; */
+    height: 275px;
+    width: 350px;
+    text-align: right;
+}
+.play-instantly{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-section-desc h1{
+    color: #0B0223;
+    font-size: 41px;
+    font-weight: 700;
+
+}
+.play-section-desc p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.play-section-img{
+    /* border: 1px solid black; */
+    width: 650px;
+    height: 550px;
+}
+.img1{
+    width: 500px;
+    height: 90%;
+    margin-left: 150px;
+}
+.img2{
+    width: 290px;
+    height: 280px;
+    /* margin-bottom: 500px; */
+    position: relative;
+    bottom: 220px;
 }
