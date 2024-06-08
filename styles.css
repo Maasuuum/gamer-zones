@@ -480,3 +480,40 @@ body{
   } */
 
 
+.games{
+    /* border: 1px solid red; */
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */
+    justify-content: center;
+    gap: 20px;
+}
+.games-g{
+    /* border: 1px solid blue; */
+    display: flex;
+    gap: 20px;
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    align-items: center;
+    cursor: pointer;
+}
+.games-g:hover{
+    background-color: rgba(11, 2, 35, 0.10);
+}
+.games-g img{
+    width: 60px;
+    height: 60px;
+}
+.games-g p{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
